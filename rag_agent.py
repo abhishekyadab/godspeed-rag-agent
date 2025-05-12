@@ -4,7 +4,7 @@ import glob
 import chromadb
 from chromadb.config import Settings
 from langchain.text_splitter import RecursiveCharacterTextSplitter, MarkdownTextSplitter
-import google.generativeai as genai
+from google import genai
 from tqdm import tqdm
 
 # 1. Load Gemini API key from .env
